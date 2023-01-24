@@ -1,0 +1,121 @@
+/*
+******************** ::: service of css ::: ======================
+::: 0.0 common css
+::: 1.0 header css
+::: 2.0 service banner css
+::: 3.0 service counter css
+::: 4.0 service overview css
+::: 5.0 quality css
+::: 6.0 service deliver css
+::: 7.0 testi css
+::: 8.0 service require css
+::: 9.0 contact css
+::: 10.0 footer css
+
+============================= ::: ==============================
+*/
+/* ****************** common colors ================= */
+/* text colors */
+/* background colors */
+  /* ******************************************
+::: 0.0 common css
+  ========================================== */
+.section-title {
+  margin-bottom: 3rem; }
+  .section-title h2 {
+    text-align: center; }
+  .section-title p {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center; }
+
+.section-sub-title {
+  margin-bottom: 1rem; }
+  .section-sub-title h3 {
+    color: #bfbfbf; }
+
+/* get heir a designer css */
+#work-together {
+  padding-top: 4rem; }
+  #work-together .together-title span {
+    color: #bfbfbf; }
+
+  /* ******************************************
+::: 2.0 service banner css
+========================================== */
+#service-banner {
+  background: url(../images/fanatech-service.jpg) no-repeat center;
+  background-size: cover; }
+  #service-banner .banner-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8rem 0;
+    padding-top: 10rem;
+    text-align: center; }
+    #service-banner .banner-overlay .banner-title {
+      text-align: center;
+      padding: 1.25rem 0;
+      font-size: 4rem; }
+  @media screen and (max-width: 575px) {
+    #service-banner .banner-overlay {
+      padding: 3rem 0;
+      padding-top: 6rem; }
+      #service-banner .banner-overlay .banner-title {
+        font-size: 2.5rem; } }
+
+  /* ******************************************
+::: 3.0 service counter css
+========================================== */
+#about-section .counter-card {
+  background: #0a0b1a;
+  box-shadow: 7px 7px 25px 7px rgba(0, 0, 0, 0.4); }
+  #about-section .counter-card .counter-card-img img {
+    width: 4rem;
+    margin: 0 auto;
+    margin-bottom: 1.5rem; }
+
+  /* ******************************************
+::: 5.0 quality css
+========================================== */
+  /* ******************************************
+::: 6.0 service deliver css
+========================================== */
+#service-deliver .deliver-swiper {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem; }
+  #service-deliver .deliver-swiper .deliver-card {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.25rem;
+    border-radius: .5rem;
+    background: rgba(10, 11, 26, 0.7);
+    box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.3); }
+    #service-deliver .deliver-swiper .deliver-card .deliver-card-img {
+      width: 20%;
+      margin: 0 auto; }
+    #service-deliver .deliver-swiper .deliver-card .deliver-card-body {
+      width: 70%;
+      margin: 0 auto; }
+      #service-deliver .deliver-swiper .deliver-card .deliver-card-body .deliver-card-title {
+        margin-bottom: 1.25rem; }
+  #service-deliver .deliver-swiper .swiper-button-next {
+    right: 3px; }
+  #service-deliver .deliver-swiper .swiper-button-prev {
+    left: 3px; }
+  #service-deliver .deliver-swiper .swiper-pagination span {
+    background: #ffffff; }
+  #service-deliver .deliver-swiper .swiper-pagination .swiper-pagination-bullet-active-main {
+    background-image: linear-gradient(to bottom right, #007fff, #000080); }
+
+  /* ******************************************
+::: 7.0 testi css
+========================================== */
+#testi-section #work-together {
+  padding-bottom: 5rem; }
+
+  /* ******************************************
+::: 8.0 service require css
+========================================== */
+
+/*# sourceMappingURL=services.css.map */

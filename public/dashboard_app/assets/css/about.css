@@ -1,0 +1,111 @@
+/*
+******************** ::: service of css ::: ======================
+::: 0.0 common css
+::: 1.0 header css
+::: 2.0 about banner css
+::: 3.0 about slider css
+::: 4.0 about us css
+::: 5.0 about newsletter css
+::: 6.0 contact css
+::: 7.0 footer css
+
+============================= ::: ==============================
+*/
+/* ****************** common colors ================= */
+/* text colors */
+/* background colors */
+/* ******************************************
+::: 0.0 common css
+  ========================================== */
+.section-title {
+  margin-bottom: 3rem; }
+  .section-title h2 {
+    text-align: center; }
+  .section-title p {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center; }
+
+/* ******************************************
+::: 2.0 about banner css
+========================================== */
+#about-banner {
+  background: url(../images/fanatech_team.jpg) no-repeat center;
+  background-size: cover; }
+  #about-banner .banner-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8rem 0;
+    padding-top: 10rem;
+    text-align: center; }
+    #about-banner .banner-overlay .banner-title {
+      text-align: center;
+      padding: 1.25rem 0;
+      font-size: 4rem; }
+  @media screen and (max-width: 575px) {
+    #about-banner .banner-overlay {
+      padding: 3rem 0;
+      padding-top: 6rem; }
+      #about-banner .banner-overlay .banner-title {
+        font-size: 2.5rem; } }
+
+/* ******************************************
+::: 3.0 about slider css
+========================================== */
+#about-slider .about-swiper .swiper-button-next {
+  right: 3px; }
+#about-slider .about-swiper .swiper-button-prev {
+  left: 3px; }
+#about-slider .about-swiper .swiper-pagination span {
+  background: #ffffff; }
+#about-slider .about-swiper .swiper-pagination .swiper-pagination-bullet-active-main {
+  background-image: linear-gradient(to bottom right, #007fff, #000080); }
+
+/* ******************************************
+::: 4.0 about us css
+========================================== */
+#about-us .about-text p {
+  margin: 1.25rem 0; }
+
+/* ******************************************
+::: 5.0 about newsletter css
+========================================== */
+#about-newsletter .newsletter-field {
+  padding: 0.75rem;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden; }
+  #about-newsletter .newsletter-field #email {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding-right: 6rem;
+    padding-left: 0.5rem; }
+    #about-newsletter .newsletter-field #email::placeholder {
+      color: #bfbfbf; }
+    #about-newsletter .newsletter-field #email:focus {
+      outline: none; }
+  #about-newsletter .newsletter-field .newsletter-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(1%, -50%);
+    height: 102%;
+    padding: 0.25rem 3rem;
+    color: #ffffff;
+    background-image: linear-gradient(to bottom right, #007fff, #000080);
+    border: none;
+    font-weight: 600; }
+    #about-newsletter .newsletter-field .newsletter-btn:first {
+      outline: none; }
+    #about-newsletter .newsletter-field .newsletter-btn:hover {
+      background-image: linear-gradient(to bottom right, #000080, #007fff); }
+
+/* ******************************************
+::: 6.0 contact css
+========================================== */
+/* ******************************************
+::: 7.0 footer css
+========================================== */
+
+/*# sourceMappingURL=about.css.map */

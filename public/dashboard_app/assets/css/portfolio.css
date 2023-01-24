@@ -1,0 +1,79 @@
+/*
+******************** ::: service of css ::: ======================
+::: 0.0 common css
+::: 1.0 header css
+::: 2.0 portfolio banner css
+::: 3.0 portfolio css
+::: 4.0 contact css
+::: 5.0 footer css
+
+============================= ::: ==============================
+*/
+/* ****************** common colors ================= */
+/* text colors */
+/* background colors */
+  /* ******************************************
+::: 0.0 common css
+  ========================================== */
+.section-title {
+  margin-bottom: 3rem; }
+  .section-title h2 {
+    text-align: center; !important}
+  .section-title p {
+    margin: 0 auto;
+    text-align: center; }
+
+  /* ******************************************
+::: 2.0 portfolio banner css
+========================================== */
+#portfolio-banner {
+  background: url(../images/portfolio-banner-img.jpg) no-repeat center;
+  background-size: cover; }
+  #portfolio-banner .banner-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8rem 0;
+    padding-top: 10rem;
+    text-align: center; }
+    #portfolio-banner .banner-overlay .banner-title {
+      text-align: center;
+      padding: 1.25rem 0;
+      font-size: 4rem; }
+  @media screen and (max-width: 575px) {
+    #portfolio-banner .banner-overlay {
+      padding: 3rem 0;
+      padding-top: 6rem; }
+      #portfolio-banner .banner-overlay .banner-title {
+        font-size: 2.5rem; } }
+
+  /* ******************************************
+::: 3.0 portfolio css
+========================================== */
+#portfolio .portfolio-controllers {
+  margin-bottom: 3rem;
+  padding: 0;
+  text-align: center; }
+  #portfolio .portfolio-controllers .filter-btn {
+    color: #ffffff;
+    background: transparent;
+    font-size: .85rem;
+    font-weight: 600;
+    border: none;
+    margin-right: 1rem;
+    transition: all linear .4s; }
+    #portfolio .portfolio-controllers .filter-btn:focus {
+      outline: none; }
+    #portfolio .portfolio-controllers .filter-btn:hover {
+      color: #007fff; }
+  #portfolio .portfolio-controllers .filter-btn.active-work {
+    color: #007fff; }
+#portfolio .portfolios .portfolio-image .portfolio-item-title {
+  font-size: 15px !important; }
+
+  /* ******************************************
+::: 4.0 contact css
+========================================== */
+  /* ******************************************
+::: 5.0 footer css
+========================================== */
+
+/*# sourceMappingURL=portfolio.css.map */

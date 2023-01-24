@@ -1,0 +1,144 @@
+/*
+******************** ::: service of css ::: ======================
+::: 0.0 common css
+::: 1.0 header css
+::: 2.0 contact banner css
+::: 3.0 contact us css
+::: 4.0 contact newsletter css
+::: 5.0 contact css
+::: 6.0 contact footer css
+
+============================= ::: ==============================
+*/
+/* ****************** common colors ================= */
+/* text colors */
+/* background colors */
+/* ******************************************
+::: 0.0 common css
+  ========================================== */
+.section-title {
+  margin-bottom: 2rem !important; }
+  .section-title h2 {
+    text-align: center; }
+  .section-title p {
+    text-align: center; }
+
+/* ******************************************
+::: 2.0 contact us banner css
+========================================== */
+#contact-banner {
+  background: url(../images/about-banner-img.jpg) no-repeat center;
+  background-size: cover; }
+  #contact-banner .banner-overlay {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8rem 0;
+    padding-top: 10rem;
+    text-align: center; }
+    #contact-banner .banner-overlay .banner-title {
+      text-align: center;
+      padding: 1.25rem 0;
+      font-size: 4rem; }
+  @media screen and (max-width: 575px) {
+    #contact-banner .banner-overlay {
+      padding: 3rem 0;
+      padding-top: 6rem; }
+      #contact-banner .banner-overlay .banner-title {
+        font-size: 2.5rem; } }
+
+/* ******************************************
+::: 3.0 contact us css
+========================================== */
+#contact-us .contact-info {
+  background: rgba(10, 11, 26, 0.7);
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 20px 5px rgba(0, 0, 0, 0.3);
+  text-align: center; }
+  #contact-us .contact-info .contact-address {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 1.25rem; }
+    #contact-us .contact-info .contact-address i {
+      width: 2rem;
+      height: 2rem;
+      line-height: 2rem;
+      border: 1px solid #bfbfbf;
+      border-radius: 50%;
+      text-align: center;
+      background: #bfbfbf;
+      font-size: 0.9rem;
+      color: #000080; }
+    #contact-us .contact-info .contact-address h5 {
+      padding: 0.5rem;
+      text-align: center; }
+    #contact-us .contact-info .contact-address address {
+      font-size: 13px;
+      color: #8c8c8c; }
+#contact-us .contact-form .form-control {
+  background: transparent;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-bottom: 2px solid #8c8c8c;
+  padding: 0.3rem 0.75rem;
+  font-weight: 400; }
+  #contact-us .contact-form .form-control::placeholder {
+    color: #bfbfbf; }
+  #contact-us .contact-form .form-control:hover, #contact-us .contact-form .form-control:focus {
+    border-bottom: 2px solid #007fff;
+    box-shadow: none; }
+#contact-us .contact-form .form-check .form-check-input:focus {
+  box-shadow: none; }
+#contact-us .contact-form .submit-btn {
+  background: linear-gradient(to bottom right, #007fff, #000080);
+  padding: 0.5rem 0;
+  font-weight: 600;
+  color: #ffffff;
+  border: none;
+  border-radius: 0.5rem; }
+  #contact-us .contact-form .submit-btn:hover {
+    background: linear-gradient(to bottom right, #000080, #007fff); }
+
+/* ******************************************
+::: 4.0 contact newsletter css
+========================================== */
+#about-newsletter .newsletter-field {
+  padding: 0.75rem;
+  background: #ffffff;
+  border-radius: 0.5rem;
+  position: relative;
+  overflow: hidden; }
+  #about-newsletter .newsletter-field #email {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    padding-right: 6rem;
+    padding-left: 0.5rem; }
+    #about-newsletter .newsletter-field #email::placeholder {
+      color: #bfbfbf; }
+    #about-newsletter .newsletter-field #email:focus {
+      outline: none; }
+  #about-newsletter .newsletter-field .newsletter-btn {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(1%, -50%);
+    height: 102%;
+    padding: 0.25rem 3rem;
+    color: #ffffff;
+    background-image: linear-gradient(to bottom right, #007fff, #000080);
+    border: none;
+    font-weight: 600; }
+    #about-newsletter .newsletter-field .newsletter-btn:first {
+      outline: none; }
+    #about-newsletter .newsletter-field .newsletter-btn:hover {
+      background-image: linear-gradient(to bottom right, #000080, #007fff); }
+
+/* ******************************************
+::: 5.0 contact css
+========================================== */
+/* ******************************************
+::: 6.0 contact footer css
+========================================== */
+
+/*# sourceMappingURL=contact.css.map */

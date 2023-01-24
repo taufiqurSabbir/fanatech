@@ -1,0 +1,235 @@
+/* ****************** common colors ================= */
+/* text colors */
+/* ****************** common colors ================= */
+/* text colors */
+/* background colors */
+/* ******************************* 
+    all devices responsive css here
+================================ */
+/* index page responsive start here */
+/* extra smart devices responsive css here */
+@media screen and (min-width: 320px) and (max-width: 575px) {
+  /* common responsive css */
+  body {
+    font-size: 14px;
+  }
+  #portfolio .portfolio-controllers {
+	padding: 0 15px;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  .section-title h2.left-title {
+    text-align: center;
+  }
+
+  /* header responsive here */
+  #navbar ul {
+    margin-top: 1.5rem;
+  }
+  #navbar ul li {
+    margin-left: 0;
+  }
+  #navbar ul li a {
+    font-size: 16px;
+    padding-left: 1.5rem;
+    border-radius: 0.25rem;
+    background: transparent;
+  }
+  #navbar ul li a:hover {
+    background: #0f1015;
+  }
+  #navbar ul li .active {
+    background: #0f1015;
+  }
+  #navbar ul li:last-child {
+    display: none !important;
+  }
+
+  /* banner responsive here */
+  #banner-section {
+    padding: 7rem 0;
+    text-align: center;
+  }
+  #banner-section .banner-welcome .banner-title {
+    font-size: 2rem !important;
+    text-align: center;
+  }
+
+  /* about us responsive here */
+  #about-section .counter-card h2 {
+    font-size: 2.25rem;
+  }
+
+  /* team responsive here */
+  #team-section .team-member .team-member-overlay .one {
+    right: 130px !important;
+    bottom: 45px !important;
+  }
+  #team-section .team-member .team-member-overlay .two {
+    right: 90px !important;
+    bottom: 85px !important;
+  }
+  #team-section .team-member .team-member-overlay .three {
+    right: 52px !important;
+    bottom: 115px !important;
+  }
+  #team-section .team-member .team-member-overlay .four {
+    right: 18px !important;
+    bottom: 135px !important;
+  }
+  #team-section .team-member .team-member-overlay .five {
+    right: 0px !important;
+    bottom: 144px !important;
+  }
+
+  /* pop up chat box responsive here */
+  #chat-box .chat-modal {
+    max-width: 285px;
+  }
+  #chat-box .chat-modal .chat-header .user-items .user-info {
+    display: none;
+  }
+}
+/* small devices responsive css here */
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+  #portfolio .portfolio-controllers {
+	padding: 0 15px;
+  }
+  
+  h2 {
+    font-size: 1.75rem;
+  }
+  .section-title h2.left-title {
+    text-align: center;
+  }
+
+  .normal-btn a {
+    font-size: 1rem;
+    padding: 0.5rem 1.25rem;
+  }
+
+  .normal-icon i {
+    width: 2.5rem;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    font-size: 1.25rem;
+    margin-right: 0.75rem;
+  }
+
+  /* header responsive here */
+  #navbar ul {
+    margin-top: 1.5rem;
+  }
+  #navbar ul li {
+    margin-left: 0;
+  }
+  #navbar ul li a {
+    font-size: 16px;
+    padding-left: 1.5rem;
+    border-radius: 0.25rem;
+    background: transparent;
+  }
+  #navbar ul li a:hover {
+    background: #0f1015;
+  }
+  #navbar ul li .active {
+    background: #0f1015;
+  }
+
+  #banner-section {
+    padding: 7rem 0;
+    text-align: center;
+  }
+  #banner-section .banner-welcome .banner-title {
+    font-size: 2rem !important;
+  }
+  /* team responsive here */
+  #team-section .team-member .team-member-overlay .one {
+    right: 175px !important;
+    bottom: 45px !important;
+  }
+  #team-section .team-member .team-member-overlay .two {
+    right: 125px !important;
+    bottom: 85px !important;
+  }
+  #team-section .team-member .team-member-overlay .three {
+    right: 82px !important;
+    bottom: 113px !important;
+  }
+  #team-section .team-member .team-member-overlay .four {
+    right: 52px !important;
+    bottom: 130px !important;
+  }
+  #team-section .team-member .team-member-overlay .five {
+    right: 25px !important;
+    bottom: 144px !important;
+  }
+}
+/* medium devices responsive css here */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* header responsive here */
+  #navbar ul {
+    margin-top: 1.5rem;
+  }
+  .section-title h2.left-title {
+    text-align: center;
+  }
+  #navbar ul li {
+    margin-left: 0;
+  }
+  #navbar ul li a {
+    font-size: 16px;
+    padding-left: 1.5rem;
+    border-radius: 0.25rem;
+    background: transparent;
+  }
+  #navbar ul li a:hover {
+    background: #0f1015;
+  }
+  #navbar ul li .active {
+    background: #0f1015;
+  }
+
+  /* banner section responsive */
+  #banner-section .banner-welcome .banner-title {
+    font-size: 2.5rem;
+  }
+}
+/* lg devices responsive css here */
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* header responsive here */
+  #navbar ul li a {
+    font-size: 14px;
+  }
+
+  /* team responsive here */
+  #team-section .team-member .team-member-overlay .one {
+    right: 130px !important;
+    bottom: 44px !important;
+  }
+  #team-section .team-member .team-member-overlay .two {
+    right: 90px !important;
+    bottom: 85px !important;
+  }
+  #team-section .team-member .team-member-overlay .three {
+    right: 52px !important;
+    bottom: 115px !important;
+  }
+  #team-section .team-member .team-member-overlay .four {
+    right: 18px !important;
+    bottom: 133px !important;
+  }
+  #team-section .team-member .team-member-overlay .five {
+    right: 0px !important;
+    bottom: 142px !important;
+  }
+}
+/* index page responsive end here */
+
+/*# sourceMappingURL=responsive.css.map */
