@@ -44,10 +44,9 @@
                             <div class="normal-icon d-flex align-items-center pt-3">
                                 <p class="me-3">Follow Us--</p>
                                 <div>
-                                    <a href="https://www.facebook.com/fexdvers" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
-                                    <a href="https://www.instagram.com/fexdvers" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-                                    <a href="https://www.linkedin.com/fexdvers" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
-                                    <a href="https://www.behance.net/fexdvers" target="_blank"><i class="fa-brands fa-behance"></i></a>
+                                    <a href="https://www.facebook.com/fanatech.co/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                    <a href="https://www.instagram.com/fanatech.co/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/company/fanatech/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
                                 </div>
                             </div>
                         </div>

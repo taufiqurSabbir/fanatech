@@ -1,7 +1,7 @@
 @extends('layouts.dashboard_app')
 
 @section('page_title')
-{{ 'Fexdvers | Home' }}
+{{ 'Fanatech | Home' }}
 @endsection
 
 @section('dashboard_content')
@@ -36,7 +36,7 @@
          </div>
        @endif
 
-     
+
 
 
       <div class="container">
@@ -65,5 +65,5 @@
       </div>
     </div><!-- br-pagebody -->
   </div><!-- br-mainpanel -->
-  <!-- ########## END: MAIN PANEL ########## --> 
+  <!-- ########## END: MAIN PANEL ########## -->
 @endsection

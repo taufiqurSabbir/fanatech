@@ -31,7 +31,7 @@
         <nav id="navbar" class="navbar navbar-expand-lg py-2 fixed-top">
             <div class="container">
                 <a class="navbar-brand m-0 p-0" href="{{ url('/') }}">
-                    <img src="{{ asset('dashboard_app') }}/assets/images/logo.png" alt="logo.png">
+                    <img src="{{ asset('dashboard_app') }}/assets/images/b.png" alt="logo.png">
                 </a>
                 <button class="navbar-toggler m-0 p-0" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
